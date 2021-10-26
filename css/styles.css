@@ -61,6 +61,7 @@ color:white;
     margin-top: 5px;
 }
 .title{
+    font-family: "ArchyEDT-Bold", sans-serif;
     font-size: 50px;
     display: inline-block;
     padding-bottom: 10px;
@@ -154,6 +155,7 @@ border-radius: 10px;
 
     @media screen and (max-width: 830px) {
       .title{
+        font-family: "ArchyEDT-Bold", sans-serif;
           margin-left: 0px;
           height: 60px;
         display: flex;
