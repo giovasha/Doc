@@ -1,0 +1,183 @@
+@keyframes example {
+    from {background-color: #356364;}
+    to {background-color: #234243 ;}
+  }
+  .big{
+      font-size: 40px;
+  }
+  .Name{
+      font-size: 30px;
+  }
+  .footer{
+      direction: flex;
+      text-align: center;
+      background-color: #58a6a7 ;
+      color: white;
+      font-size: 20px;
+  width: 100%;
+  
+      bottom: 0px;
+  }
+.topNav {
+
+  padding:4px;
+  border: none;
+
+  margin-right: 16px;
+  font-size: 20px;
+  border-radius: 15px;
+  border-width:0px;
+border:none;
+outline:none;
+margin-top: 45px;
+margin-left: 4px;
+align-items: center;
+float: right;
+}
+
+.titleBar{
+   
+flex-direction: row;
+animation-name: example;
+  animation-duration: 4s;
+background-color: #356364;
+  
+}
+.contacts{
+   
+    font-size: 15px;
+
+color:white;
+  
+}
+.image{
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.title{
+    font-size: 50px;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: white;
+    position: relative;
+    margin-left: 160px;
+    
+   padding-top: 30px;
+    height:70px;
+}
+.topHome{
+    padding:5px;
+    font-size: 30px;
+    display: inline-block; 
+    position: relative;
+  
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.topHome:hover{
+    padding: 5px;
+    font-size: 30px;
+    display: inline-block; 
+    position: relative;
+   
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+background-color: powderblue;
+border-radius: 10px;
+
+}
+.topBar{
+    flex-direction: row;
+    white-space: nowrap;
+    background-color:cadetblue;
+    padding-bottom: 10px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+.topInfo{
+    padding: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+font-size: 25px;
+padding-top: 5px;
+margin-top: 5px;
+padding-bottom: 10px;
+color: white;
+background-color: #56a0a3;
+display: inline-block; 
+border-radius: 10px;
+
+}
+.topInfo:hover{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+ 
+    background-color: #3e7475;
+    display: inline-block; 
+    border-radius: 10px;
+    margin-top: 5px;
+     
+    }
+    .right{
+     
+        float: right;
+      display: flex;
+      
+    }
+
+    .loupe{
+        width: 35px;
+        height: 35px;
+        color: white;
+      margin-top: 45px;
+      margin-left: 10px;
+       align-items: center;
+       float: right;
+    }
+    .mainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 830px) {
+      .title{
+          margin-left: 0px;
+          height: 60px;
+        display: flex;
+        margin-left: 130px ;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+      }
+  .topNav{
+      float: none;
+      align-items: center;
+      border-bottom: 10px;
+      
+  }
+  .loupe{
+float: left;
+height: 30px;
+width: 30px;
+margin-left: 40px;
+border-bottom: 10px;
+
+  }
+  .image{
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+    }
