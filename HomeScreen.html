@@ -7,21 +7,33 @@
     <link rel="stylesheet" href="assets/archyedt-bold-master/css/archyedt-bold.min.css">
   </head>
   <body>
+    <header>
       <div class="titleBar">
-    <img class="image" src="assets/attachment_61493098-e1582727199132.png" >
-    <p class="title">დენტალ მედი</p>
+    <img class="image" src="assets/logo2.jpg" >
+    <p class="title">მედი დენტ+</p>
     
     
-    <input  class="topNav" type="text" placeholder="Search..">
+    <input  class="topNav" type="text" placeholder="Search">
     <img class="loupe" src="assets/loupe.png"> 
   
 </div>
+</header>
       <div class="topBar">
-	<p class="topInfo">Home</p>
-    <p class="topInfo">კლინიკის შესახებ</p>
-    <p class="topInfo">პერსონალი</p>
-    <p class="topInfo">გალერეა</p>
-    <p class="topInfo">კონტაქტი</p>
+        <a class="container">
+	<button class="topInfo">მთავარი</button>
+</a>
+<a class="container">
+    <button class="topInfo">კლინიკის შესახებ</button>
+  </a>
+    <a  class="container" href="staff.html">
+    <button class="topInfo">პერსონალი</button>
+  </a>
+    <a class="container"  href="Gallery.html">
+    <button  class="topInfo">გალერეა</button>
+  </a>
+  <a class="container" >
+    <button class="topInfo2">კონტაქტი</button>
+  </a>
 
 </div>
 <div class="slideshow-container">
@@ -75,19 +87,27 @@
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 9000); // Change image every 2 seconds
+    setTimeout(showSlides, 9000); 
   }
   </script>
  <div>
    <p class="big">
-   ჩვენი პეროსნალის შესახებ:
+   სიახლეები:
+   <div class="wrap"> 
   </p>
+  <img class="covid" src="assets/covid.jpg">
+  <p class="bigText">
+    რჩევები სტომატოლოგიურ კლინიკების ქსელ "მედი დენტ+"-სგან, თუ როგორ უნდა დავიცვათ თავი კორონა ვირუსისგან! კლინიკა ,,დენსში” ინფექციის კონტროლის ყველა რეკომენდაცია დაცულია! გისურვებთ ჯანმრთელობას.
+  </p>
+</div>
   </div>
-
+  </div>
+  <div>
       <footer class="footer">
         <p>Made by: George Vashakidze</p>
        
         <p>© 2021 IvaTech team</p>
+      </div>
     </footer>
   </body>
 </html>
